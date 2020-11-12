@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'ag-grid-community/dist/styles/ag-grid.css';
+import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 
 import 'jquery/dist/jquery';
+import 'popper.js/dist/umd/popper';
 import 'bootstrap/dist/js/bootstrap';
 
 ReactDOM.render(
