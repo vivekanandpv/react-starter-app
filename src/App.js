@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import TableOne from './TableOne';
-import TableTwo from './TableTwo';
+import CDemo from './CDemo';
+import FDemo from './FDemo';
 
 function App() {
   return (
@@ -9,9 +9,8 @@ function App() {
         <h3>Starter App</h3>
 
         <hr />
-
-        <TableTwo />
-        {/* <TableOne /> */}
+        {/* <FDemo /> */}
+        <CDemo />
       </div>
     </Fragment>
   );
