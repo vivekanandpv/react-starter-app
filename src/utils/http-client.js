@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const httpClient = axios.create({
-  baseURL: 'https://reqres.in/api/',
+  baseURL: 'http://localhost:8080/api/v1/',
   timeout: 1000,
   headers: { 'X-Base-Header': 'setting in http client' },
 });

@@ -8,7 +8,7 @@ const FDemo = (props) => {
 
   useEffect(() => {
     httpClient
-      .get('users?page=2', {
+      .get('customers', {
         headers: {
           'X-Custom-Header': 'custom-value-goes-here',
           'X-Custom-Header2': 'custom-value-2-goes-here',
@@ -26,7 +26,7 @@ const FDemo = (props) => {
 
   const getData = () => {
     httpClient
-      .get('users?page=2', {
+      .get('customers', {
         headers: {
           'X-Custom-Header': 'custom-value-goes-here',
           'X-Custom-Header2': 'custom-value-2-goes-here',
